@@ -1,7 +1,7 @@
 <?php
 
 require 'lib/autoload.php';
-
+//Hello
 $db = DBFactory::getMysqlConnexionWithPDO();
 $manager = new NewsManagerPDO($db);
 
